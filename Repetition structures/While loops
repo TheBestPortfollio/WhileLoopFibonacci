@@ -1,0 +1,15 @@
+def fibonacci (limit) :
+    #  numbers used as a catalyst for fibonacci
+    num1 = 1
+    num2 = 1
+    # num1 is only printed to prevent num2 variable being repeated twice // end is used to keep all info on one line
+    print(num1, end=" ")
+#implementing thwe while loop // 
+  to be read as : while the var num2 is under the limit i give perform VV
+    while num2 <= limit :
+        print(num2, end= " ")
+        Num3 = num1 + num2
+        num1 = num2
+        num2 = Num3
+
+fibonacci(100)
